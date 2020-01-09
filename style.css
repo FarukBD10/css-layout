@@ -1,5 +1,5 @@
 body {
-    margin: auto 0;
+    margin:0;
 }
 .sticky {
     position: fixed;
@@ -9,13 +9,14 @@ body {
 .main-nav {
     display:flex;
     list-style-type: none;
-    font-size: 0.7em;
+    font-size: 2em;
     background-color:;
     margin:0;
+    padding: 10px 0px;
    
 }
 li {
-    padding:20px;
+    padding:0px 10px;
 }
 a {
     color:#f5f5f6;
@@ -23,8 +24,8 @@ a {
 }
 @media only screen and (max-width: 600px) {
 .main-nav {
-        font-size:.5em;
-        padding:0;
+        font-size:.1em;
+        padding:;
     }
 }
 .push {
@@ -34,10 +35,10 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    height:70vh;
+    height:50vh;
 }
 .coverContainer {
-    width:30rem;
+    width:25rem;
 }
 .imgsection {
     display: grid;
@@ -90,4 +91,11 @@ a {
 .blue{
     background: #7abcff; /* Old browsers */
    
+}
+footer {display: flex;
+    background-color: black;
+    color:white;
+    justify-content: center;
+    font-size:2em;
+    padding: 10px;
 }
