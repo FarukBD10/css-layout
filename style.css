@@ -1,0 +1,93 @@
+body {
+    margin: auto 0;
+}
+.sticky {
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+.main-nav {
+    display:flex;
+    list-style-type: none;
+    font-size: 0.7em;
+    background-color:;
+    margin:0;
+   
+}
+li {
+    padding:20px;
+}
+a {
+    color:#f5f5f6;
+    text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+.main-nav {
+        font-size:.5em;
+        padding:0;
+    }
+}
+.push {
+    margin-left:auto;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:70vh;
+}
+.coverContainer {
+    width:30rem;
+}
+.imgsection {
+    display: grid;
+    background-color:;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap:20px;
+}
+.items>img {
+    width: 100%;
+}
+.items {
+    background-color: #444;
+    padding:130px;
+    margin:10px;
+
+}
+.items:hover {
+    -webkit-transform:rotate(-7deg);
+    -moz-transform:rotate(-7deg);
+    -o-transform:rotate(-7deg);
+    transform:rotate(-7deg);
+}
+.zone {
+   
+  
+    cursor:pointer;
+  
+    color:#FFF;
+    font-size:2em;
+    border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+}
+
+.:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+/*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
+/***********************************************************************
+ *  Green Background
+ **********************************************************************/
+
+/***********************************************************************
+ *  Blue Background
+ **********************************************************************/
+.blue{
+    background: #7abcff; /* Old browsers */
+   
+}
